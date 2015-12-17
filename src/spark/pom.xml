@@ -297,6 +297,7 @@
                                     <mainClass>org.mazerunner.core.messaging.Worker</mainClass>
                                 </transformer>
                             </transformers>
+                            <outputDirectory>../../docker/bin/lib</outputDirectory>
                         </configuration>
                     </execution>
                     <execution>

@@ -42,7 +42,8 @@ COPY conf/hadoop /etc/hadoop
 
 # Copy Mazerunner service binary
 WORKDIR /etc/mazerunner
-RUN wget https://s3-us-west-1.amazonaws.com/mazerunner-artifacts/spark-1.1.2-RELEASE-driver.jar
+COPY bin/lib/spark-1.1.2-RELEASE-driver.jar /etc/mazerunner
+#RUN wget https://s3-us-west-1.amazonaws.com/mazerunner-artifacts/spark-1.1.2-RELEASE-driver.jar
 
 ENV BOOTSTRAP /etc/mazerunner/bootstrap.sh
 
