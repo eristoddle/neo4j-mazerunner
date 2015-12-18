@@ -297,7 +297,7 @@
                                     <mainClass>org.mazerunner.core.messaging.Worker</mainClass>
                                 </transformer>
                             </transformers>
-                            <outputDirectory>../../docker/bin/lib</outputDirectory>
+                            <outputDirectory>../../docker/spark-mazerunner/bin/lib</outputDirectory>
                         </configuration>
                     </execution>
                     <execution>

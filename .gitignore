@@ -1,3 +1,5 @@
+/docker/neo4j-mazerunner/plugins/*.jar
+/docker/spark-mazerunner/bin/lib/*.jar
 *.class
 
 # Mobile Tools for Java (J2ME)
